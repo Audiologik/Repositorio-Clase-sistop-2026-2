@@ -14,10 +14,10 @@ contador_renos = 0 #Permite contar cuantos renos vuelven de vacaciones
 
 #Semáforos
 santaSem = threading.Semaphore(0) #Sirve para controlar el hilo de santa. 
-renoSem = threading.Semaphore(0) #Sirve para controlar el hilo de santa.
+renoSem = threading.Semaphore(0) #Sirve para controlar los hilos de los renos
 
 #Mutex implementados con semáforos
-mutex_num_elfos = threading.Semaphore(3) #
+mutex_num_elfos = threading.Semaphore(3) #Multiplexor que permite el control de 3 elfos con dudas
 mutex = threading.Semaphore(1) #Permite el control del acceso a las variables contador
 
 
