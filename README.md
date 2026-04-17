@@ -1,10 +1,10 @@
 Tarea 3 - MéridaFrancisco - QuezadaLeonardo
 # Tarea Planificadores de procesos.
 
-Para esta tarea implementamos los planificadores de procesos FCFS, RR1 (con quantum =1 ), RR4 (quantum = 4) y SPN, además de agregar el esquema visual para mejorar su ejecución y comprobar su funcionamiento.
+Para esta tarea implementamos los planificadores de procesos FCFS, RR1 (con quantum =1 ), RR4 (quantum = 4) y SPN, además de agregar el esquema visual para mejorar su presentación y comprobar su funcionamiento.
 
 ## Entorno de desarrollo
-Realizamos lo solicitado en un programa desarrollado en python versión 3.12.3, llamado “T03.py ” por lo que puede ser ejecutado en cualquier sistema operativo que cuente con Python3.
+Realizamos lo solicitado en un programa desarrollado en python versión 3.12.3, llamado “T03.py” por lo que puede ser ejecutado en cualquier sistema operativo que cuente con Python3.
 Forma de ejecutarlo
 
 ### Ejecución:
@@ -21,7 +21,7 @@ Los procesos son almacenados y ordenados según el tiempo de llegada, en una lis
 Como mencionamos antes, estos planificadores reciben una lista ordenada de procesos.
 
 ## FCFS
-Cómo recibimos una lista ordenada de los procesos simulados, para mostrar el orden de ejecución de dichos procesos, únicamente recorremos la lista recibida e imprimimos sus identificadores tantas veces dure el proceso.  
+Al recibir una lista ordenada de los procesos simulados, para mostrar el orden de ejecución de dichos procesos, únicamente recorremos la lista recibida e imprimimos sus identificadores tantas veces dure el proceso.  
 
 Para el cálculo de las métricas de desempeño, llevamos un control del tiempo (inicio y fin de ejecución) con una variable contador llamada “tiempo”. Por último, regresamos el orden de ejecución y las métricas promedio por cada lista de procesos.
 
